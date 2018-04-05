@@ -35,7 +35,7 @@ $motorcycle = VehicleFactory::make('motorcycle') // throws InvalidArgumentExcept
 You can install this package via composer:
 
 ``` bash
-composer require skollro/otherwise
+composer require skollro/factory
 ```
 
 ## Usage
