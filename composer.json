@@ -1,5 +1,6 @@
 {
     "name": "skollro/factory",
+    "description": "Higher order factories for PHP.",
     "license": "MIT",
     "authors": [
         {
