@@ -63,7 +63,7 @@ class Factory
 
     protected function resolveInstance($otherwise)
     {
-        if (!self::$resolver) {
+        if (! self::$resolver) {
             self::resolveUsing(function ($className) {
                 return new $className;
             });
